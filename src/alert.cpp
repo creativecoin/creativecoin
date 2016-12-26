@@ -19,7 +19,7 @@ using namespace std;
 map<uint256, CAlert> mapAlerts;
 CCriticalSection cs_mapAlerts;
 
-static const char* pszMainKey = "";
+static const char* pszMainKey = "0460118f835696b3dad4f276f8b02e7fc7911dc717ad281b6e629bf6cbcb839e0e52e108bf7f854943269102771801eed56e6377cd5fe58989348e047ae69fa84e";
 
 // TestNet alerts pubKey creativecoin
 static const char* pszTestKey = "";
